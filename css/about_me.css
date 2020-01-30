@@ -1,74 +1,70 @@
 html{
     background-color: #FFFFF8;
-}
+ }
+  
 
-.nav{
-    margin: 0;
-    padding: 0;
-    border: 1px solid black;
-}
-
-.nav a{
-    display: flex;
-    justify-content: flex-end;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    color: black;
-}
-
-h1{
+  
+ h1{
     font-family: 'Shrikhand', cursive;
     color: #F8B39B;
     font-size: 130px;
-    margin-left: 140px;
+    margin-left: 50px;
     margin-top: 35px;
-}
+ }
 
-img{
+ h2{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 150px;
+    line-height: 35px;
+    padding-top: 20px;
+ }
+  
+ img{
     position: relative;
-    margin-left: 1162px;
+    margin-left: 800px;
     top: -300px;
     z-index: -1;
-}
-
-.image{
+ }
+  
+ .image{
     width: 700px;
     height: auto;
-}
-
-.image{
+ }
+  
+ .image{
     width: auto;
     height: 700px;
-}
-
-#orangeBlock{
+ }
+  
+ #orangeBlock{
     width: 525px;
     height: 710px;
     border: solid 1px #f5ab93;
     background-color: #f5ab93;
     position: relative;
     top: -970px;
-    margin-left: 1200px;
+    margin-left: 850px;
     z-index: -2;
-}
-
-#aboutMe{
+ }
+  
+ #aboutMe{
     position: relative;
-    width: 50%;
+    width: 700px;
     top: -1560px;
-}
-
-p{
+ }
+  
+ p{
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
-    margin-left: 262px;
-    line-height: 35px;
+    margin-left: 150px;
+    line-height: 25px;
     padding-top: 20px;
-}
+ }
 
-ul{
+ ul{
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
-    margin-left: 262px;
+    margin-left: 150px;
     line-height: 35px;
-}
+ }
+ 
