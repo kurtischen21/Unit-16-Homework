@@ -13,6 +13,7 @@
 
 li{
    display: inline-block;
+   font-family: 'Roboto', sans-serif;
    color: white;
    text-decoration: none;
 }
@@ -181,4 +182,7 @@ li{
     width: 1000px;
     top: -815px;
     left: 330px;
+ }
+
+ @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
  }
