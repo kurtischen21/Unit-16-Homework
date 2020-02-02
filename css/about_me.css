@@ -1,15 +1,79 @@
-html{
-    background-color: #FFFFF8;
- }
-  
+.container{
+   border: solid #404040;
+   background-color: #404040;
+   height: 120px;
+}
 
-  
+
+.avatar{
+   border: 1px solid white;
+   height: 95px;
+   width: 95px;
+}
+
+li{
+   display: inline-block;
+   color: white;
+   text-decoration: none;
+}
+
+.Ellipse-1{
+   background-image: url("../Ellipse\ 1@2x.png");
+   background-repeat: no-repeat;
+}
+
+
+.deathStranding{
+   position: relative;
+   max-width: 450px;
+   margin-left: 150px;
+   max-height: 435px;
+   margin-top: 100px;
+   top: -680px;
+   left: -20px;
+}
+
+.bracketTopLeft{
+   position: absolute;
+   top: -50px;
+   left: -800px;
+   width: 59px;
+   height: 66px;
+}
+
+.bracketBotLeft{
+   position: absolute;
+   top: 450px;
+   left: -798px;
+   width: 59px;
+   height: 66px;
+   transform: rotate(270deg)
+}
+
+.bracketBotRight{
+   position: absolute;
+   top: -500px;
+   right: 500px;
+   width: 59px;
+   height: 66px;
+}
+
  h1{
-    font-family: 'Shrikhand', cursive;
-    color: #F8B39B;
-    font-size: 130px;
+   font-family: futura-pt, sans-serif;
+   font-style: normal;
+   font-weight: 300;
+    color: #404040;
+    font-size: 150px;
     margin-left: 50px;
     margin-top: 35px;
+    line-height: 120px;
+    letter-spacing: -3px;
+ }
+
+ .you{
+   color: #ffff33;
+   position: relative;
+   top: -105px;
  }
 
  h2{
@@ -22,35 +86,36 @@ html{
  img{
     position: relative;
     margin-left: 800px;
-    top: -300px;
+    top: -1250px;
+    left: 50px;
     z-index: -1;
  }
   
  .image{
-    width: 700px;
-    height: auto;
+   width: 400.1px;
+   height: 710.6px;
+   object-fit: contain;
  }
   
- .image{
-    width: auto;
-    height: 700px;
- }
-  
- #orangeBlock{
-    width: 525px;
-    height: 710px;
-    border: solid 1px #f5ab93;
-    background-color: #f5ab93;
-    position: relative;
-    top: -970px;
-    margin-left: 850px;
-    z-index: -2;
+.dotBack{
+   position: relative;
+   top: 10px;
+   left: 70px;
+   width: 400.1px;
+   height: 710.6px;
+   object-fit: contain;
  }
   
  #aboutMe{
     position: relative;
-    width: 700px;
-    top: -1560px;
+    width: 1200px;
+    top: -1200px;
+ }
+
+ .paragraph{
+    position: absolute;
+    left: 50px;
+    top: -20px;
  }
   
  p{
@@ -61,10 +126,59 @@ html{
     padding-top: 20px;
  }
 
- ul{
+ .faves{
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     margin-left: 150px;
     line-height: 35px;
  }
  
+ .Path-14 {
+   position: absolute;
+   top: 26px;
+   left: 126px;
+   width: 17px;
+   height: 480px;
+   border: solid 1px #383838;
+   background-color: #383838;
+ }
+
+ .caseStudies{
+   position: absolute;
+   top: 1500px;
+   width: 1410px;
+   height: 600px;
+   border: solid 1px #383838;
+   background-color: #383838;
+   margin-bottom: 50px;
+}
+
+.nonProfit{
+   font-family: futura-pt, sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 102px;
+   margin-left: 120px;
+   color: white;
+   letter-spacing: -3px;
+}
+
+.foodFinders{
+   width: 300.1px;
+   height: 710.6px;
+   object-fit: contain;
+   position: relative;
+   top: -250px;
+   z-index: 1;
+   left: -678px;
+   border-radius: 6px;
+ }
+
+ .foodFind{
+   font-family: 'Roboto', sans-serif;
+    color: white;
+    position: relative;
+    width: 1000px;
+    top: -815px;
+    left: 330px;
+ }
